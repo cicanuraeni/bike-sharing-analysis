@@ -1,26 +1,13 @@
-# bike-sharing-analysis
+# Bike Sharing Data Analysis & Dashboard
 
-Dashboard ini merupakan proyek akhir analisis data untuk memvisualisasikan tren penyewaan sepeda berdasarkan parameter waktu, cuaca, dan musim.
+Proyek ini menganalisis pola penyewaan sepeda menggunakan dataset Bike Sharing tahun 2011–2012.  
+Analisis dilakukan untuk memahami tren penggunaan sepeda serta perbedaan perilaku pengguna berdasarkan waktu.
 
-## Setup Environment - Anaconda
-```py
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install -r requirements.txt
-```
+## Cara Menjalankan Dashboard
 
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
+### 1. Pastikan Python sudah terinstall
+Cek dengan perintah berikut:
 
-## Run streamlit app
-```
-cd dashboard
-streamlit run dashboard.py
-```
+```bash
+py --version
 
